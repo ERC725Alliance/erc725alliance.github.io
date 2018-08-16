@@ -10,8 +10,8 @@ ERC 725 Alliance Website Mocks
 https://invis.io/H9NDPDYZKM5#/312956293_01
 
 TODO list for website
+* Add members to GitHub organization and website repo
 * Upload finalized design with said lists
 * Finalize design
 * Gather list of interested developers
 * Gather list of interested projects
-* Add members to GitHub organization and website repo
