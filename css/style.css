@@ -60,7 +60,7 @@ p {
 	background-position: right;
 }
 
-#block {
+#header-block {
 	position: absolute;
 	top: 502px;
 	right:26px;
@@ -122,7 +122,6 @@ p {
 #footer {
 	background-image: linear-gradient(to bottom, #454545, #000000);
 	padding-top: 40px;
-	padding-bottom:60px;
 }
 #footer h1 {
 	font-size: 20px;
@@ -140,16 +139,28 @@ p {
 	padding:10px;
 }
 
+#footer-block {
+	position: relative;
+	top:-180px;
+	right:26px;
+}
+
 /* media queries */
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {  
+	#footer {
+		padding-bottom:0px;
+	}
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
 	h1 {
 		font-size: 54px;
+	}
+	#footer {
+		padding-bottom:40px;
 	}
 }
 
@@ -158,11 +169,17 @@ p {
 	h1 {
 		font-size: 44px;
 	}
+	#footer {
+		padding-bottom:40px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	h1 {
 		font-size: 34px;
+	}
+	#footer {
+		padding-bottom:40px;
 	}
 }
