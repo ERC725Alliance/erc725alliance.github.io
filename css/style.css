@@ -141,8 +141,8 @@ p {
 
 #footer-block {
 	position: relative;
-	top:-180px;
-	right:26px;
+	top:-290px;
+	right:-26px;
 }
 
 /* media queries */
@@ -150,7 +150,7 @@ p {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {  
 	#footer {
-		padding-bottom:0px;
+		padding-bottom:40px;
 	}
 }
 
