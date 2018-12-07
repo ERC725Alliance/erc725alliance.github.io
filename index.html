@@ -1,779 +1,704 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>ERC725 Alliance</title>
-		<meta charset="utf-8">
-		<meta name="description" content="This is the home of ERC 725, a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of the ERC 20 standard and Web3.js."/>
-		<meta property="og:image" content="https://erc725alliance.org/img/erc725-alliance.png">
-		<meta property="og:image:type" content="image/png">
-		<meta property="og:image:width" content="1200">
-		<meta property="og:image:height" content="630">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="/css/hexagons.css">
-		<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<body>
-		<section id='header'>
-			<div class="container">
-				<a href="/">
-				<img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo" alt="ERC725 Alliance">
+<head>
+	<title>ERC725 Alliance</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the home of ERC 725, a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of the ERC 20 standard and Web3.js."/>
+	<meta property="og:image" content="https://erc725alliance.org/img/erc725-alliance.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/hexagons.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<section id='header'>
+	<div class="container">
+
+		<a href="/"><img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo" alt="ERC725 Alliance"></a>
+
+		<h1>ERC-725<br>Ethereum Identity Standard</h1>
+		<div class="row">
+			<div class="col-8">
+				This is the home of ERC 725, a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of the ERC 20 standard and Web3.js.
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<img src="img/block.png" srcset="img/block@2x.png 2x, img/block@3x.png 3x" id="header-block">
+
+<section id='about' class='grey'>
+	<div class="container">
+		<div class="row">
+			<div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
+				<img src="img/what-icon.png" srcset="img/what-icon@2x.png 2x, img/what-icon@3x.png 3x" class="icon">
+			</div>
+			<div class="col-12 col-sm-9 col-md-9 col-lg-8">
+				<h2>What is ERC 725?</h2>
+				<p>ERC 725 is a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of ERC 20 and Web3.js. ERC 725 describes proxy smart contracts that can be controlled by multiple keys and other smart contracts. ERC 735 is an associated standard to add and remove claims to an ERC 725 identity smart contract. These identity smart contracts can describe humans, groups, objects, and machines. ERC 725 lives on the Ethereum blockchain.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
+				<img src="img/why-icon.png" srcset="img/why-icon@2x.png 2x, img/why-icon@3x.png 3x" class="icon">
+			</div>
+			<div class="col-12 col-sm-9 col-md-9 col-lg-8">
+				<h2>Why ERC 725?</h2>
+				<p>ERC 725 allows for self-sovereign identity. Users should be able to own and manage their identity instead of ceding ownership of identity to centralized organizations. We have seen the negative effects of having centralized identity with damaging leaks and unfair selling of user data and identity. An open, portable standard for identities will enable decentralized reputation, governance, and more. Users will be able to take their identity across different Dapps and platforms that support this standard.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="developers" class='white'>
+	<div class="container">
+		<h2>Developers</h2><br>
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/frozeman" class="float-left">
+						<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/232662?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/frozeman">Fabian Vogelsteller</a>
+						Author of ERC 725
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/nick" class="float-left">
+						<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/939?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/nick">Nick Poulden</a>
+						Engineer at Origin Protocol
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/joshfraser" class="float-left">
+						<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/982234?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/joshfraser">Josh Fraser</a>
+						Cofounder Origin Protocol
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/3esmit" class="float-left">
+						<div class="headshot"><img src="https://avatars3.githubusercontent.com/u/224810?s=400&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/3esmit">Ricardo Schmidt</a>
+						Engineer at Status
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/adamdossa" class="float-left">
+						<div class="headshot"><img src="https://avatars3.githubusercontent.com/u/2633913?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/adamdossa">Adam Dossa</a>
+						Engineer at Polymath
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/pabloruiz55" class="float-left">
+						<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/526558?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/pabloruiz55">Pablo Ruiz</a>
+						Engineer at Polymath
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/wanderingstan" class="float-left">
+						<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/673455?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/wanderingstan">Stan James</a>
+						Engineer at Origin Protocol
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/tyleryasaka" class="float-left">
+						<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/6504519?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/tyleryasaka">Tyler Yasaka</a>
+						Engineer at Origin Protocol
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/dwking2000" class="float-left">
+						<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/3486215?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/dwking2000">Doug King</a>
+						CTO at Verity
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/juliosantos" class="float-left">
+						<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/365821?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/juliosantos">Júlio Santos</a>
+						CTO at Fractal
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/marekkirejczyk" class="float-left">
+						<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/197522?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/marekkirejczyk">Marek Kirejczyk</a>
+						Engineer at EthWorks
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/faustovanin" class="float-left">
+						<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/23296266?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/faustovanin">Fausto Vanin</a>
+						Partner at OnePercent.io
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://www.twitter.com/ricburton" class="float-left">
+						<div class="headshot"><img src="https://pbs.twimg.com/profile_images/971390653002403841/bkxOFx6I_400x400.jpg" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://www.twitter.com/ricburton">Richard Burton</a>
+						Designer at Balance
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://www.linkedin.com/in/marcinrudolf/" class="float-left">
+						<div class="headshot"><img src="https://s3.eu-central-1.amazonaws.com/org.neufund.documents/marcinneufundctohr460x460.png" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://www.linkedin.com/in/marcinrudolf/">Marcin Rudolf</a>
+						CTO at Neufund
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/nathanawmk" class="float-left">
+
+						<div class="headshot"><img src="https://www.hyperledger.org/wp-content/uploads/2018/02/NathanAw_cropped.jpg" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/nathanawmk">Nathan Aw</a>
+						Engineer at OCBC Bank
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="developer">
+					<a href="https://github.com/pet3r-pan" class="float-left">
+
+						<div class="headshot"><img src="https://avatars3.githubusercontent.com/u/25356454?s=460&v=4" /></div>
+					</a>
+					<p class="float-left">
+						<a href="https://github.com/pet3r-pan">Peter</a>
+						Product at Tenzorum
+					</p>
+				</div>
+			</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://www.linkedin.com/in/shippable-ls/" class="float-left">
+							<div class="headshot"><img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/luke_shipley.jpg"
+								/></div>
+						</a>
+						<p class="float-left">
+							<a href="https://www.linkedin.com/in/shippable-ls/">Luke Shipley</a>
+							Co-founder at Zinc
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/dpp23" class="float-left">
+							<div class="headshot"><img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/dimitar_popov.jpg"
+								/></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/dpp23">Dimitar Popov</a>
+							Engineer at Zinc
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/geeogi" class="float-left">
+							<div class="headshot"><img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/george_bennett.jpg"
+								/></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/geeogi">George Bennett</a>
+							Engineer at Zinc
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/ali2251" class="float-left">
+							<div class="headshot"><img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/ali_azam.jpg"
+								/></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/ali2251">Ali Azam</a>
+							Engineer at Zinc
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/fcroiseaux" class="float-left">
+							<div class="headshot"><img src="https://avatars1.githubusercontent.com/u/780695?s=460&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/fcroiseaux">Fabrice Croiseaux</a>
+							CEO at InTech creator of EDDITS
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/adetante" class="float-left">
+							<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/917716?s=400&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/adetante">Antoine Detante</a>
+							Lead Architect at InTech creator of EDDITS
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/cremafr" class="float-left">
+							<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/5360522?s=400&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/cremafr">Thomas Brillard</a>
+							Engineer at InTech Developer of EDDITS
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/davis12529" class="float-left">
+							<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/6311446?s=460&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/davis12529">Davis Gay</a>
+							Co-founder at Rate3 Network
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/YannSuissa" class="float-left">
+							<div class="headshot"><img src="https://dl.wiji.io/avatars_erc725/yann.jpg" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/YannSuissa">Yann Suissa</a>
+							CEO at wiji.io
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/OlivierRicca" class="float-left">
+							<div class="headshot"><img src="https://dl.wiji.io/avatars_erc725/olivier.jpg" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/OlivierRicca">Olivier Ricca</a>
+							CTO at wiji.io
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/AndyHydro" class="float-left">
+							<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/30632620?s=460&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/AndyHydro">Andy Chorlian</a>
+							Developer at Hydro
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://www.linkedin.com/in/anurag-angara-6863a483/" class="float-left">
+							<div class="headshot"><img src="https://avatars2.githubusercontent.com/u/37848473?s=460&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://www.linkedin.com/in/anurag-angara-6863a483/">Anurag Angara</a>
+							Product at Hydro
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://www.linkedin.com/in/aabhishek/" class="float-left">
+							<div class="headshot"><img src="https://media.licdn.com/dms/image/C4E03AQGmVxCLfVPlRg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=qcZqrjgK-loHu5VO47nuqQZRKGxZTijtz1naeyy5pu0" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://www.linkedin.com/in/aabhishek/">Abhishek Agarwal</a>
+							Founder at Credit Hydra
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/ookimaki" class="float-left">
+							<div class="headshot"><img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p320x320/45585078_1597663837047125_2453561713505599488_n.jpg?_nc_cat=107&_nc_ht=scontent-nrt1-1.xx&oh=9378b9acd214d003081402a0f0570383&oe=5C765110" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/ookimaki">Taiju Sanagi</a>
+							CEO at BlockBase
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://www.linkedin.com/in/kentaro-yamamura-0865628/" class="float-left">
+							<div class="headshot"><img src="https://media.licdn.com/dms/image/C4E03AQHr_52fmOVS4Q/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=IAsiLckwuaPuK9-5iwqhzLdOl8QT3beOD2KJmG9T6Bw" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://www.linkedin.com/in/kentaro-yamamura-0865628/">Kentaro Yamamura</a>
+							COO at BlockBase
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/daiki01240" class="float-left">
+							<div class="headshot"><img src="https://avatars3.githubusercontent.com/u/30500272?s=400&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/daiki01240">Daiki Yamamoto</a>
+							TechLead at BlockBase
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/jimflynn" class="float-left">
+							<div class="headshot"><img src="https://avatars0.githubusercontent.com/u/43906600?s=460&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/jimflynn">Jim Flynn</a>
+							Co-founder at The Kuwa Foundation
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/rockfridrich" class="float-left">
+							<div class="headshot"><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/14264862_966471326831372_716375215205042086_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=c252a90b93c4e288bb53885e88164f54&oe=5CAEC466" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/evgeth">Evgeny Yurtaev</a>
+							CEO at Zerion
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/bashalex" class="float-left">
+							<div class="headshot"><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/19260336_1803289556667769_3070199050531603479_n.jpg?_nc_cat=109&_nc_ht=scontent-arn2-1.xx&oh=dcdc48f7ab6db44e0b34fd6cb6130a7a&oe=5C692197" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/bashalex">Alexey Bashlykov</a>
+							CTO at Zerion
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="developer">
+						<a href="https://github.com/rockfridrich" class="float-left">
+							<div class="headshot"><img src="https://avatars1.githubusercontent.com/u/4190988?s=400&u=8a2eac4284097fc0bb572c203ecb034f44cc6fc8&v=4" /></div>
+						</a>
+						<p class="float-left">
+							<a href="https://github.com/rockfridrich">Vadim Koleoshkin</a>
+							COO at Zerion
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+        	<div class="developer">
+          	<a href="https://github.com/victorwiebe" class="float-left">
+            	<div class="headshot"><img src="https://avatars1.githubusercontent.com/u/35141155?s=400?v=4"/></div>
+            </a>
+            <p class="float-left">
+              <a href="https://github.com/victorwiebe">Victor J. Wiebe</a>
+              Engineer at Svandis.io
+            </p>
+          </div>
+        </div>
+			</div>
+	</div>
+</section>
+
+<section id="projects" class="grey">
+	<div class="container">
+
+		<h2>Projects</h2>
+
+		<div class="row">
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://status.im/" target="_blank">
+					<img src="img/logo-status.png" srcset="img/logo-status@2x.png 2x, img/logo-status@3x.png 3x">
 				</a>
-				<h1>ERC-725
-					<br>Ethereum Identity Standard
-				</h1>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://polymath.network/" target="_blank">
+					<img src="img/logo-polymath.png" srcset="img/logo-polymath@2x.png 2x, img/logo-polymath@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://www.originprotocol.com" target="_blank">
+					<img src="img/logo-origin.png" srcset="img/logo-origin@2x.png 2x, img/logo-origin@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://kord.network/" target="_blank">
+					<img src="img/logo-kord.png" srcset="img/logo-kord@2x.png 2x, img/logo-kord@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="http://publicmarket.io/" target="_blank">
+					<img src="img/logo-public-market.png" srcset="img/logo-public-market@2x.png 2x, img/logo-public-market@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://propy.com/" target="_blank">
+					<img src="img/logo-propy.png" srcset="img/logo-propy@2x.png 2x, img/logo-propy@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://dream.ac" target="_blank">
+					<img src="img/logo-dream.png" srcset="img/logo-dream@2x.png 2x, img/logo-dream@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="http://dock.io" target="_blank">
+					<img src="img/logo-dock.png" srcset="img/logo-dock@2x.png 2x, img/logo-dock@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="http://www.verity.site/" target="_blank">
+					<img src="img/logo-verity.png" srcset="img/logo-verity@2x.png 2x, img/logo-verity@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="http://cryptokabn.com/" target="_blank">
+					<img src="img/logo-cryptokabn.png" srcset="img/logo-cryptokabn@2x.png 2x, img/logo-cryptokabn@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://cleargraph.com/" target="_blank">
+					<img src="img/logo-cleargraph.png" srcset="img/logo-cleargraph@2x.png 2x, img/logo-cleargraph@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://trustfractal.com/" target="_blank">
+					<img src="img/logo-fractal.png" srcset="img/logo-fractal@2x.png 2x, img/logo-fractal@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://abacusprotocol.com/" target="_blank">
+					<img src="img/logo-abacus.png" srcset="img/logo-abacus@2x.png 2x, img/logo-abacus@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://neufund.org/" target="_blank">
+					<img src="img/logo-neufund.png" srcset="img/logo-neufund@2x.png 2x, img/logo-neufund@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://tenzorum.org/" target="_blank">
+					<img src="img/logo-tenzorum.png" srcset="img/logo-tenzorum@2x.png 2x, img/logo-tenzorum@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://zinc.work/" target="_blank">
+					<img src="img/logo-zinc.png" srcset="img/logo-zinc@2x.png 2x, img/logo-zinc@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://github.com/Eddits-org" target="_blank">
+					<img src="img/logo-eddits.png" srcset="img/logo-eddits@2x.png 2x, img/logo-eddits@3x.png 3x">
+				</a>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://stacktical.com" target="_blank">
+					<img src="img/logo-stacktical.png" srcset="img/logo-stacktical@2x.png 2x, img/logo-stacktical@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://rate3.network" target="_blank">
+					<img src="img/logo-rate3.png" srcset="img/logo-rate3@2x.png 2x, img/logo-rate3@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://wiji.io" target="_blank">
+					<img src="img/logo-wiji.png" srcset="img/logo-wiji@2x.png 2x, img/logo-wiji@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://www.hydrogenplatform.com/hydro" target="_blank">
+					<img src="img/logo-hydro.png" srcset="img/logo-hydro@2x.png 2x, img/logo-hydro@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://www.credithydra.com" target="_blank">
+					<img src="img/creditHydralogo.png" srcset="img/creditHydralogo@2x.png 2x, img/creditHydralogo@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https://block-base.co/" target="_blank">
+					<img src="blockbase.png" srcset="img/blockbase@2x.png 2x, img/blockbase@3x.png 3x">
+				</a>
+			</div>
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
+				<a href="https:/zerion.io/?utm_source=erc725Alliance&utm_medium=logo" target="_blank">
+					<img src="img/logo-zerion.png" srcset="img/logo-zerion@2x.png 2x, img/logo-zerion@3x.png 3x">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="news" class="white">
+	<div class="container">
+		<h2>News</h2>
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://hackernoon.com/first-impressions-with-erc-725-and-erc-735-identity-and-claims-4a87ff2509c9"><h3>First impressions with ERC 725 and ERC 735 — identity and claims</h3></a>
+					<p>"Fabian Vogelsteller, the creator of the Mist Browser and web3.js, is working on a new identity standard for Ethereum, ERC 725."</p>
+					<a href="https://hackernoon.com/first-impressions-with-erc-725-and-erc-735-identity-and-claims-4a87ff2509c9">Read more &raquo;</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://blog.dream.ac/qa-with-dream-advisor-fabian-vogelsteller-author-of-erc20-erc725/"><h3>Q&A with DREAM Advisor, Fabian Vogelsteller, Author of ERC20 & ERC725</h3></a>
+					<p>"To have an identity that people use and trusts, it needs to be on a trustless layer like Ethereum, or another public blockchain."</p>
+					<a href="https://blog.dream.ac/qa-with-dream-advisor-fabian-vogelsteller-author-of-erc20-erc725/">Read more &raquo;</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum"><h3>ERC725: A Self-Sovereign Identity Standard For Ethereum</h3></a>
+					<p>"If you are who you say you are, then why must you prove it over and over again? One day, a blockchain-based standard could make the monotony of identity verification a relic of the past."</p>
+					<a href="https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum">Read more &raquo;</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://medium.com/originprotocol/tech-update-dapp-gets-erc-725-identity-transaction-steps-escrow-reviews-298a7c91b7a5"><h3>Origin DApp gets ERC 725 Identity, Transaction Steps, Escrow, and Reviews</h3></a>
+					<p>"You can think of ERC 725-enabled identity a bit like Facebook Connect, but without the Facebook."</p>
+					<a href="https://medium.com/originprotocol/tech-update-dapp-gets-erc-725-identity-transaction-steps-escrow-reviews-298a7c91b7a5">Read more &raquo;</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://cryptoslate.com/what-is-erc725-self-sovereign-identity-management-on-the-blockchain/"><h3>What is Ethereum ERC725? Self-Sovereign Identity Management on the Blockchain</h3></a>
+					<p>"User identity management, however, remains critical to any dApps and is currently managed by “trusted” third parties—a problem the ERC725 identity standard aims to solve."</p>
+					<a href="https://cryptoslate.com/what-is-erc725-self-sovereign-identity-management-on-the-blockchain/">Read more &raquo;</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="news">
+					<a href="https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09"><h3>Managing Identity with a UI for ERC 725</h3></a>
+					<p>"Although ERC 725 is still at an early stage, we believe it has great potential and our intention is to use it as the basis for managing identity and trust at Origin."
+					</p>
+					<a href="https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09">Read more &raquo;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-12">
+				<h1>Development</h1>
 				<div class="row">
-					<div class="col-8">
-						This is the home of ERC 725, a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of the ERC 20 standard and Web3.js.
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-github.png" srcset="img/icon-github@2x.png 2x, img/icon-github@3x.png 3x"><a href="https://github.com/ethereum/EIPs/issues/725">EIP Github</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-origin.png" srcset="img/icon-origin@2x.png 2x, img/icon-origin@3x.png 3x"><a href="https://erc725.originprotocol.com">Playground</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-origin.png" srcset="img/icon-origin@2x.png 2x, img/icon-origin@3x.png 3x"><a href="https://github.com/OriginProtocol/identity-playground">Code</a>
 					</div>
 				</div>
 			</div>
-		</section>
-		<img src="img/block.png" srcset="img/block@2x.png 2x, img/block@3x.png 3x" id="header-block">
-		<section id='about' class='grey'>
-			<div class="container">
+			<div class="col-12">
+				<h1>Discussion</h1>
 				<div class="row">
-					<div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
-						<img src="img/what-icon.png" srcset="img/what-icon@2x.png 2x, img/what-icon@3x.png 3x" class="icon">
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-telegram.png" srcset="img/icon-telegram@2x.png 2x, img/icon-telegram@3x.png 3x"><a href="https://t.me/joinchat/Gz70lg_D-b_mUgaCJxHzFg">Telegram</a>
 					</div>
-					<div class="col-12 col-sm-9 col-md-9 col-lg-8">
-						<h2>What is ERC 725?</h2>
-						<p>ERC 725 is a proposed standard for blockchain-based identity authored by Fabian Vogelsteller, creator of ERC 20 and Web3.js. ERC 725 describes proxy smart contracts that can be controlled by multiple keys and other smart contracts. ERC 735 is an associated standard to add and remove claims to an ERC 725 identity smart contract. These identity smart contracts can describe humans, groups, objects, and machines. ERC 725 lives on the Ethereum blockchain.</p>
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-medium.png" srcset="img/icon-medium@2x.png 2x, img/icon-medium@3x.png 3x"><a href="https://medium.com/erc725alliance">Medium</a>
 					</div>
-				</div>
-				<div class="row">
-					<div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
-						<img src="img/why-icon.png" srcset="img/why-icon@2x.png 2x, img/why-icon@3x.png 3x" class="icon">
+					<div class="col-sm-12 col-md-4 col-xl-3">
+						<img src="img/icon-github.png" srcset="img/icon-github@2x.png 2x, img/icon-github@3x.png 3x"><a href="https://github.com/erc725alliance">Join the Alliance</a>
 					</div>
-					<div class="col-12 col-sm-9 col-md-9 col-lg-8">
-						<h2>Why ERC 725?</h2>
-						<p>ERC 725 allows for self-sovereign identity. Users should be able to own and manage their identity instead of ceding ownership of identity to centralized organizations. We have seen the negative effects of having centralized identity with damaging leaks and unfair selling of user data and identity. An open, portable standard for identities will enable decentralized reputation, governance, and more. Users will be able to take their identity across different Dapps and platforms that support this standard.</p>
-					</div>
+					<!-- <div class="col-xl-3 d-none d-xl-block">
+						<div class="footer-block-wrapper">
+							<img src="img/block.png" srcset="img/block@2x.png 2x, img/block@3x.png 3x" id="footer-block">
+						</div>
+					</div> -->
 				</div>
 			</div>
-		</section>
-		<section id="developers" class='white'>
-			<div class="container">
-				<h2>Developers</h2>
-				<br>
-				<div class="row">
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/frozeman" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/232662?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/frozeman">Fabian Vogelsteller</a>
-								Author of ERC 725
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/nick" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/939?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/nick">Nick Poulden</a>
-								Engineer at Origin Protocol
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/joshfraser" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/982234?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/joshfraser">Josh Fraser</a>
-								Cofounder Origin Protocol
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/3esmit" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars3.githubusercontent.com/u/224810?s=400&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/3esmit">Ricardo Schmidt</a>
-								Engineer at Status
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/adamdossa" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars3.githubusercontent.com/u/2633913?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/adamdossa">Adam Dossa</a>
-								Engineer at Polymath
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/pabloruiz55" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/526558?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/pabloruiz55">Pablo Ruiz</a>
-								Engineer at Polymath
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/wanderingstan" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/673455?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/wanderingstan">Stan James</a>
-								Engineer at Origin Protocol
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/tyleryasaka" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/6504519?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/tyleryasaka">Tyler Yasaka</a>
-								Engineer at Origin Protocol
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/dwking2000" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/3486215?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/dwking2000">Doug King</a>
-								CTO at Verity
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/juliosantos" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/365821?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/juliosantos">Júlio Santos</a>
-								CTO at Fractal
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/marekkirejczyk" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/197522?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/marekkirejczyk">Marek Kirejczyk</a>
-								Engineer at EthWorks
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/faustovanin" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/23296266?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/faustovanin">Fausto Vanin</a>
-								Partner at OnePercent.io
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.twitter.com/ricburton" class="float-left">
-								<div class="headshot">
-									<img src="https://pbs.twimg.com/profile_images/971390653002403841/bkxOFx6I_400x400.jpg" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.twitter.com/ricburton">Richard Burton</a>
-								Designer at Balance
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.linkedin.com/in/marcinrudolf/" class="float-left">
-								<div class="headshot">
-									<img src="https://s3.eu-central-1.amazonaws.com/org.neufund.documents/marcinneufundctohr460x460.png" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.linkedin.com/in/marcinrudolf/">Marcin Rudolf</a>
-								CTO at Neufund
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/nathanawmk" class="float-left">
-								<div class="headshot">
-									<img src="https://www.hyperledger.org/wp-content/uploads/2018/02/NathanAw_cropped.jpg" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/nathanawmk">Nathan Aw</a>
-								Engineer at OCBC Bank
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/pet3r-pan" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars3.githubusercontent.com/u/25356454?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/pet3r-pan">Peter</a>
-								Product at Tenzorum
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.linkedin.com/in/shippable-ls/" class="float-left">
-								<div class="headshot">
-									<img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/luke_shipley.jpg"
-										/>
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.linkedin.com/in/shippable-ls/">Luke Shipley</a>
-								Co-founder at Zinc
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/dpp23" class="float-left">
-								<div class="headshot">
-									<img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/dimitar_popov.jpg"
-										/>
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/dpp23">Dimitar Popov</a>
-								Engineer at Zinc
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/geeogi" class="float-left">
-								<div class="headshot">
-									<img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/george_bennett.jpg"
-										/>
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/geeogi">George Bennett</a>
-								Engineer at Zinc
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/ali2251" class="float-left">
-								<div class="headshot">
-									<img src="https://rawcdn.githack.com/zincwork/zincwork.github.io/master/img/team/ali_azam.jpg"
-										/>
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/ali2251">Ali Azam</a>
-								Engineer at Zinc
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/fcroiseaux" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars1.githubusercontent.com/u/780695?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/fcroiseaux">Fabrice Croiseaux</a>
-								CEO at InTech creator of EDDITS
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/adetante" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/917716?s=400&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/adetante">Antoine Detante</a>
-								Lead Architect at InTech creator of EDDITS
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/cremafr" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/5360522?s=400&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/cremafr">Thomas Brillard</a>
-								Engineer at InTech Developer of EDDITS
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/davis12529" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/6311446?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/davis12529">Davis Gay</a>
-								Co-founder at Rate3 Network
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/YannSuissa" class="float-left">
-								<div class="headshot">
-									<img src="https://dl.wiji.io/avatars_erc725/yann.jpg" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/YannSuissa">Yann Suissa</a>
-								CEO at wiji.io
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/OlivierRicca" class="float-left">
-								<div class="headshot">
-									<img src="https://dl.wiji.io/avatars_erc725/olivier.jpg" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/OlivierRicca">Olivier Ricca</a>
-								CTO at wiji.io
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/AndyHydro" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/30632620?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/AndyHydro">Andy Chorlian</a>
-								Developer at Hydro
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.linkedin.com/in/anurag-angara-6863a483/" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars2.githubusercontent.com/u/37848473?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.linkedin.com/in/anurag-angara-6863a483/">Anurag Angara</a>
-								Product at Hydro
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.linkedin.com/in/aabhishek/" class="float-left">
-								<div class="headshot">
-									<img src="https://media.licdn.com/dms/image/C4E03AQGmVxCLfVPlRg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=qcZqrjgK-loHu5VO47nuqQZRKGxZTijtz1naeyy5pu0" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.linkedin.com/in/aabhishek/">Abhishek Agarwal</a>
-								Founder at Credit Hydra
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/ookimaki" class="float-left">
-								<div class="headshot">
-									<img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p320x320/45585078_1597663837047125_2453561713505599488_n.jpg?_nc_cat=107&_nc_ht=scontent-nrt1-1.xx&oh=9378b9acd214d003081402a0f0570383&oe=5C765110" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/ookimaki">Taiju Sanagi</a>
-								CEO at BlockBase
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://www.linkedin.com/in/kentaro-yamamura-0865628/" class="float-left">
-								<div class="headshot">
-									<img src="https://media.licdn.com/dms/image/C4E03AQHr_52fmOVS4Q/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=IAsiLckwuaPuK9-5iwqhzLdOl8QT3beOD2KJmG9T6Bw" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://www.linkedin.com/in/kentaro-yamamura-0865628/">Kentaro Yamamura</a>
-								COO at BlockBase
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/daiki01240" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars3.githubusercontent.com/u/30500272?s=400&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/daiki01240">Daiki Yamamoto</a>
-								TechLead at BlockBase
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/jimflynn" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars0.githubusercontent.com/u/43906600?s=460&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/jimflynn">Jim Flynn</a>
-								Co-founder at The Kuwa Foundation
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/rockfridrich" class="float-left">
-								<div class="headshot">
-									<img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/14264862_966471326831372_716375215205042086_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=c252a90b93c4e288bb53885e88164f54&oe=5CAEC466" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/evgeth">Evgeny Yurtaev</a>
-								CEO at Zerion
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/bashalex" class="float-left">
-								<div class="headshot">
-									<img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/19260336_1803289556667769_3070199050531603479_n.jpg?_nc_cat=109&_nc_ht=scontent-arn2-1.xx&oh=dcdc48f7ab6db44e0b34fd6cb6130a7a&oe=5C692197" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/bashalex">Alexey Bashlykov</a>
-								CTO at Zerion
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/rockfridrich" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars1.githubusercontent.com/u/4190988?s=400&u=8a2eac4284097fc0bb572c203ecb034f44cc6fc8&v=4" />
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/rockfridrich">Vadim Koleoshkin</a>
-								COO at Zerion
-							</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="developer">
-							<a href="https://github.com/victorwiebe" class="float-left">
-								<div class="headshot">
-									<img src="https://avatars1.githubusercontent.com/u/35141155?s=400?v=4"/>
-								</div>
-							</a>
-							<p class="float-left">
-								<a href="https://github.com/victorwiebe">Victor J. Wiebe</a>
-								Engineer at Svandis.io
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="projects" class="grey">
-			<div class="container">
-				<h2>Projects</h2>
-				<div class="row">
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://status.im/" target="_blank">
-						<img src="img/logo-status.png" srcset="img/logo-status@2x.png 2x, img/logo-status@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://polymath.network/" target="_blank">
-						<img src="img/logo-polymath.png" srcset="img/logo-polymath@2x.png 2x, img/logo-polymath@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://www.originprotocol.com" target="_blank">
-						<img src="img/logo-origin.png" srcset="img/logo-origin@2x.png 2x, img/logo-origin@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://kord.network/" target="_blank">
-						<img src="img/logo-kord.png" srcset="img/logo-kord@2x.png 2x, img/logo-kord@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="http://publicmarket.io/" target="_blank">
-						<img src="img/logo-public-market.png" srcset="img/logo-public-market@2x.png 2x, img/logo-public-market@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://propy.com/" target="_blank">
-						<img src="img/logo-propy.png" srcset="img/logo-propy@2x.png 2x, img/logo-propy@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://dream.ac" target="_blank">
-						<img src="img/logo-dream.png" srcset="img/logo-dream@2x.png 2x, img/logo-dream@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="http://dock.io" target="_blank">
-						<img src="img/logo-dock.png" srcset="img/logo-dock@2x.png 2x, img/logo-dock@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="http://www.verity.site/" target="_blank">
-						<img src="img/logo-verity.png" srcset="img/logo-verity@2x.png 2x, img/logo-verity@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="http://cryptokabn.com/" target="_blank">
-						<img src="img/logo-cryptokabn.png" srcset="img/logo-cryptokabn@2x.png 2x, img/logo-cryptokabn@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://cleargraph.com/" target="_blank">
-						<img src="img/logo-cleargraph.png" srcset="img/logo-cleargraph@2x.png 2x, img/logo-cleargraph@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://trustfractal.com/" target="_blank">
-						<img src="img/logo-fractal.png" srcset="img/logo-fractal@2x.png 2x, img/logo-fractal@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://abacusprotocol.com/" target="_blank">
-						<img src="img/logo-abacus.png" srcset="img/logo-abacus@2x.png 2x, img/logo-abacus@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://neufund.org/" target="_blank">
-						<img src="img/logo-neufund.png" srcset="img/logo-neufund@2x.png 2x, img/logo-neufund@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://tenzorum.org/" target="_blank">
-						<img src="img/logo-tenzorum.png" srcset="img/logo-tenzorum@2x.png 2x, img/logo-tenzorum@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://zinc.work/" target="_blank">
-						<img src="img/logo-zinc.png" srcset="img/logo-zinc@2x.png 2x, img/logo-zinc@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://github.com/Eddits-org" target="_blank">
-						<img src="img/logo-eddits.png" srcset="img/logo-eddits@2x.png 2x, img/logo-eddits@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://stacktical.com" target="_blank">
-						<img src="img/logo-stacktical.png" srcset="img/logo-stacktical@2x.png 2x, img/logo-stacktical@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://rate3.network" target="_blank">
-						<img src="img/logo-rate3.png" srcset="img/logo-rate3@2x.png 2x, img/logo-rate3@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://wiji.io" target="_blank">
-						<img src="img/logo-wiji.png" srcset="img/logo-wiji@2x.png 2x, img/logo-wiji@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://www.hydrogenplatform.com/hydro" target="_blank">
-						<img src="img/logo-hydro.png" srcset="img/logo-hydro@2x.png 2x, img/logo-hydro@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://www.credithydra.com" target="_blank">
-						<img src="img/creditHydralogo.png" srcset="img/creditHydralogo@2x.png 2x, img/creditHydralogo@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https://block-base.co/" target="_blank">
-						<img src="blockbase.png" srcset="img/blockbase@2x.png 2x, img/blockbase@3x.png 3x">
-						</a>
-					</div>
-					<div class="col-12 col-sm-4 col-md-3 col-lg-2 logo text-center">
-						<a href="https:/zerion.io/?utm_source=erc725Alliance&utm_medium=logo" target="_blank">
-						<img src="img/logo-zerion.png" srcset="img/logo-zerion@2x.png 2x, img/logo-zerion@3x.png 3x">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="news" class="white">
-			<div class="container">
-				<h2>News</h2>
-				<div class="row">
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://hackernoon.com/first-impressions-with-erc-725-and-erc-735-identity-and-claims-4a87ff2509c9">
-								<h3>First impressions with ERC 725 and ERC 735 — identity and claims</h3>
-							</a>
-							<p>"Fabian Vogelsteller, the creator of the Mist Browser and web3.js, is working on a new identity standard for Ethereum, ERC 725."</p>
-							<a href="https://hackernoon.com/first-impressions-with-erc-725-and-erc-735-identity-and-claims-4a87ff2509c9">Read more &raquo;</a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://blog.dream.ac/qa-with-dream-advisor-fabian-vogelsteller-author-of-erc20-erc725/">
-								<h3>Q&A with DREAM Advisor, Fabian Vogelsteller, Author of ERC20 & ERC725</h3>
-							</a>
-							<p>"To have an identity that people use and trusts, it needs to be on a trustless layer like Ethereum, or another public blockchain."</p>
-							<a href="https://blog.dream.ac/qa-with-dream-advisor-fabian-vogelsteller-author-of-erc20-erc725/">Read more &raquo;</a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum">
-								<h3>ERC725: A Self-Sovereign Identity Standard For Ethereum</h3>
-							</a>
-							<p>"If you are who you say you are, then why must you prove it over and over again? One day, a blockchain-based standard could make the monotony of identity verification a relic of the past."</p>
-							<a href="https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum">Read more &raquo;</a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://medium.com/originprotocol/tech-update-dapp-gets-erc-725-identity-transaction-steps-escrow-reviews-298a7c91b7a5">
-								<h3>Origin DApp gets ERC 725 Identity, Transaction Steps, Escrow, and Reviews</h3>
-							</a>
-							<p>"You can think of ERC 725-enabled identity a bit like Facebook Connect, but without the Facebook."</p>
-							<a href="https://medium.com/originprotocol/tech-update-dapp-gets-erc-725-identity-transaction-steps-escrow-reviews-298a7c91b7a5">Read more &raquo;</a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://cryptoslate.com/what-is-erc725-self-sovereign-identity-management-on-the-blockchain/">
-								<h3>What is Ethereum ERC725? Self-Sovereign Identity Management on the Blockchain</h3>
-							</a>
-							<p>"User identity management, however, remains critical to any dApps and is currently managed by “trusted” third parties—a problem the ERC725 identity standard aims to solve."</p>
-							<a href="https://cryptoslate.com/what-is-erc725-self-sovereign-identity-management-on-the-blockchain/">Read more &raquo;</a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
-						<div class="news">
-							<a href="https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09">
-								<h3>Managing Identity with a UI for ERC 725</h3>
-							</a>
-							<p>"Although ERC 725 is still at an early stage, we believe it has great potential and our intention is to use it as the basis for managing identity and trust at Origin."
-							</p>
-							<a href="https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09">Read more &raquo;</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h1>Development</h1>
-						<div class="row">
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-github.png" srcset="img/icon-github@2x.png 2x, img/icon-github@3x.png 3x">
-								<a href="https://github.com/ethereum/EIPs/issues/725">EIP Github</a>
-							</div>
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-origin.png" srcset="img/icon-origin@2x.png 2x, img/icon-origin@3x.png 3x">
-								<a href="https://erc725.originprotocol.com">Playground</a>
-							</div>
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-origin.png" srcset="img/icon-origin@2x.png 2x, img/icon-origin@3x.png 3x">
-								<a href="https://github.com/OriginProtocol/identity-playground">Code</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-12">
-						<h1>Discussion</h1>
-						<div class="row">
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-telegram.png" srcset="img/icon-telegram@2x.png 2x, img/icon-telegram@3x.png 3x">
-								<a href="https://t.me/joinchat/Gz70lg_D-b_mUgaCJxHzFg">Telegram</a>
-							</div>
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-medium.png" srcset="img/icon-medium@2x.png 2x, img/icon-medium@3x.png 3x">
-								<a href="https://medium.com/erc725alliance">Medium</a>
-							</div>
-							<div class="col-sm-12 col-md-4 col-xl-3">
-								<img src="img/icon-github.png" srcset="img/icon-github@2x.png 2x, img/icon-github@3x.png 3x">
-								<a href="https://github.com/erc725alliance">Join the Alliance</a>
-							</div>
-							<!-- <div class="col-xl-3 d-none d-xl-block"><div class="footer-block-wrapper"><img src="img/block.png" srcset="img/block@2x.png 2x, img/block@3x.png 3x" id="footer-block"></div></div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</body>
+		</div>
+	</div>
+</section>
+
+</body>
 </html>
