@@ -6,6 +6,8 @@ https://erc725alliance.org
 
 Want to join the alliance either as an individual or an organization? Send us a pull request!
 
+We're trying to keep the focus on developers who are contributing to this initiative, so please link to your Github profile and Github profile image. Please refrain from hotlinking images from LinkedIn or other sites that will break.
+
 ## Resources
 
 ERC 725 EIP
