@@ -112,6 +112,10 @@ p {
 	margin-bottom: 20px;
 }
 
+#projects .logo img {
+	max-width: 80%;
+}
+
 .news {
 	padding:40px 40px 40px 0px;
 }
