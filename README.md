@@ -1,4 +1,4 @@
-# ERC 725 Alliance Website
+# ERC 725 Alliance Website - An amazing Project
 
 https://erc725alliance.org
 
