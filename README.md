@@ -18,6 +18,7 @@ https://t.me/joinchat/Gz70lg_D-b_mUgaCJxHzFg
 
 ERC 725 Alliance Website Mocks
 https://invis.io/H9NDPDYZKM5#/312956293_01
+Thanks for visit our site :)
 
 
 
